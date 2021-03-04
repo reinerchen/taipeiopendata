@@ -25,5 +25,6 @@ $insertData = "INSERT INTO `opendata` (
     `management`,
     `number_of_houses`,
     `rent_of_area`,
-    `number_of_households` )
-VALUES ( ?, ?, ?, ?, ?, ?, ?, ?) ";
+    `number_of_households`, 
+    `update_time`)
+VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?) ";
